@@ -1,16 +1,13 @@
 require("dotenv").config();
 
 var Spotify = require("node-spotify-api");
-
 var fs = require("fs");
-
 var keys = require("./keys.js");
-
 var spotify = new Spotify(keys.spotify);
 
 var command = process.argv[2];
-
 var input = process.argv[3];
+
 if (command === "spotify-this-song") {
   songInfo(input);
 }
