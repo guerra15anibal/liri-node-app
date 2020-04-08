@@ -49,7 +49,7 @@ Spotify Preview Link: https://api.spotify.com/v1/tracks/6e40mgJiCid5HRAGrbpGA6
 
 Album: The Hits--Chapter One
 
-[![Liri Demo](https://youtu.be/fQQWf8ce8z0)](https://youtu.be/fQQWf8ce8z0)
+https://www.youtube.com/watch?v=fQQWf8ce8z0&t=43s
 
 
 
