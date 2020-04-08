@@ -24,3 +24,24 @@ function songInfo(input) {
     console.log("Album: " + data.tracks.items[0].album.name);
   });
 }
+
+var axios = require("axios");
+
+function movieInfo(input) {
+  var url =
+    "http://www.omdbapi.com/?t=" + input + "&y=&plot=short&apikey=trilogy";
+
+  axios.get(url).then(function (response) {
+    console.log("Title: " + response.data.Title);
+    console.log("Release Year: " + response.data.Year);
+    console.log("Rotten Tomatoes Rating: " + response.data.Ratings[1].Value);
+    console.log("Country where movie was produced: " + response.data.Country);
+    console.log("Language of the Movie: " + response.data.Language);
+    console.log("Move Plot: " + response.data.Plot);
+    console.log("Actors " + response.data.Actors);
+  });
+}
+
+if (command === "movie-this") {
+  movieInfo(input);
+}
