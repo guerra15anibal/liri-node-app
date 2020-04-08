@@ -6,6 +6,7 @@
   "dependencies": {
     "axios": "^0.19.2",
     "dotenv": "^8.2.0",
+    "file-system": "^2.2.2",
     "node-spotify-api": "^1.1.1",
     "query": "^0.2.0"
   },

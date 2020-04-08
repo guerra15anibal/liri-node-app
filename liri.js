@@ -45,3 +45,37 @@ function movieInfo(input) {
 if (command === "movie-this") {
   movieInfo(input);
 }
+
+function concertInfo(input) {
+  var url =
+    "https://rest.bandsintown.com/artists/" +
+    input +
+    "/events?app_id=codingbootcamp";
+
+  axios.get(url).then(function (response) {
+    console.log(data);
+  });
+}
+
+if (command === "concert-this") {
+  concertInfo(input);
+}
+
+function doThis() {
+  fs.readFile("random.txt", "utf8", function (error, data) {
+    if (error) {
+      return console.log(error);
+    }
+
+    var dataArr = data.split(",");
+
+    if (dataArr[0] === "spotify-this-song") {
+      var check = dataArr[1].slice(1, -1);
+      songInfo(check);
+    }
+  });
+}
+
+if (command === "do-what-it-says") {
+  doThis(input);
+}
