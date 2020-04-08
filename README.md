@@ -4,50 +4,50 @@ This is a program that takes in certain command lines and gives you an output to
 # Command 1: spotify-this-song
 When you type this command into Liri you will add the song/artist after the command and it will output information about it.
 
-*Artist:
+Artist:
 
-*Song Name:
+Song Name:
 
-*Spotify Preview Link:
+Spotify Preview Link:
 
-*Album:
+Album:
 
 # Command 2: movie-this
 When you type this command into Liri you will add the movie name after the command and it will output infomation about it.
 
-*Release Year:
+Release Year:
 
-*Rotten Tomatoes Rating:
+Rotten Tomatoes Rating:
 
-*Country Produced:
+Country Produced:
 
-*Language:
+Language:
 
-*Move Plot:   
+Move Plot:   
 
-*Actors:
+Actors:
 
 
 # Command 3: concert-this
 When you type this command into Liri you will add an artist after the command and it will output infomation about it.
 
-*Venue Name:
+Venue Name:
 
-*Venue Location:
+Venue Location:
 
-*Data of Event:
+Data of Event:
 
 
 # Command 4: do-what-it-says
 When you type this command it will read a text file and spotify the song in the text file. It will output.
 
-*Artist: Backstreet Boys
+Artist: Backstreet Boys
 
-*Song Name: I Want It That Way
+Song Name: I Want It That Way
 
-*Spotify Preview Link: https://api.spotify.com/v1/tracks/6e40mgJiCid5HRAGrbpGA6
+Spotify Preview Link: https://api.spotify.com/v1/tracks/6e40mgJiCid5HRAGrbpGA6
 
-*Album: The Hits--Chapter One
+Album: The Hits--Chapter One
 
 
 
