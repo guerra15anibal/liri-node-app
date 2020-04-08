@@ -35,8 +35,8 @@ function movieInfo(input) {
     console.log("Title: " + response.data.Title);
     console.log("Release Year: " + response.data.Year);
     console.log("Rotten Tomatoes Rating: " + response.data.Ratings[1].Value);
-    console.log("Country where movie was produced: " + response.data.Country);
-    console.log("Language of the Movie: " + response.data.Language);
+    console.log("Country Produced: " + response.data.Country);
+    console.log("Language: " + response.data.Language);
     console.log("Move Plot: " + response.data.Plot);
     console.log("Actors " + response.data.Actors);
   });
@@ -53,7 +53,10 @@ function concertInfo(input) {
     "/events?app_id=codingbootcamp";
 
   axios.get(url).then(function (response) {
-    console.log(data);
+    // console.log(data);
+    console.log("Venue Name: " + response.data[0].venue.name);
+    console.log("Venue Location: " + response.data[0].venue.city);
+    console.log("Date of Event: " + response.data[0].datetime);
   });
 }
 
